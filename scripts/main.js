@@ -76,7 +76,7 @@ var StorePicker = React.createClass({
       <form className="store-selector">
         <h2>Please Enter A Store, {name}</h2>
         <input type="text" ref="storeId" required defaultValue={h.getFunName()} />
-        <input type="Submit" />
+        <input type="Submit" className="test"/>
       </form>
 	  )
 	}
@@ -84,7 +84,7 @@ var StorePicker = React.createClass({
 });
 
 var notFound = React.createClass({
-  render : function(){
+  render : function(){ 
     return (
         <h1>Not Found!!!!</h1>
       )
